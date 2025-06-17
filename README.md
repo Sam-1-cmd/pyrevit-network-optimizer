@@ -20,7 +20,7 @@ Développer un outil PyRevit permettant de tracer automatiquement un conduit 3D 
 
 ## 🖼️ Aperçu
 
-![demo](./chemin_du_GIF.gif)  
+![Démo du script PyRevit](demo.gif)  
 📌 *Capture d’écran ou GIF montrant le tracé automatique dans Revit*
 
 ## 🛠️ Technologies
