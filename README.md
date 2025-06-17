@@ -16,7 +16,7 @@ Le script calcule un chemin optimisé, propose une visualisation immédiate dans
 Outil PyRevit conçu pour automatiser le tracé de conduits dans Revit, avec détection d’obstacles et génération d’un chemin contourné entre deux éléments.
 L’objectif est de faciliter la modélisation des réseaux techniques en prenant en compte les obstacles présents dans le modèle (murs, poutres, etc.) et en générant un trajet optimisé pour le passage du conduit.
 
-## ⚙Fonctionnalités
+## Fonctionnalités
 
 | Fonction | Description |
 |----------|-------------|
