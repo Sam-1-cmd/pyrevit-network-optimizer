@@ -2,8 +2,14 @@
 
 # Génération intelligente de conduits dans Revit avec PyRevit
 
-Projet réalisé à l’ESTP Paris dans le cadre de ma spécialisation en Jumeaux Numériques et Intelligence Artificielle dans le BTP.
-Ce script automatise le tracé de conduits dans Revit entre deux éléments, en contournant les obstacles et en générant un chemin optimisé via PyRevit et la Revit API.
+Ce projet a été développé dans le cadre de ma formation d’ingénieur à l’ESTP Paris, au sein du parcours transition Numérique dans le BTP.
+
+Il vise à répondre à un enjeu fréquent dans la modélisation BIM : gagner du temps dans le tracé des réseaux MEP tout en réduisant les erreurs de coordination.
+
+À l’aide de Python, Revit API et PyRevit, j’ai conçu un outil capable de générer automatiquement des conduits 3D entre deux éléments du modèle en tenant compte des obstacles architecturaux.
+
+Le script calcule un chemin optimisé, propose une visualisation immédiate dans Revit, et permet d’enregistrer les trajets pour une utilisation future. Il s’agit d’une première étape vers une automatisation intelligente du routage des réseaux dans un environnement BIM.
+
 
 ##  Objectif
 
