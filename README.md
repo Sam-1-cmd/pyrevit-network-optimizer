@@ -6,26 +6,30 @@
 
 ## 🎯 Objectif
 
-Développer un outil PyRevit permettant de tracer automatiquement un conduit 3D entre deux éléments du modèle Revit (ex. bouche d’aération et gaine), tout en détectant les obstacles (murs, poutres, etc.) et en calculant un chemin de contournement optimisé.
+Outil PyRevit conçu pour automatiser le tracé de conduits dans Revit, avec détection d’obstacles et génération d’un chemin contourné entre deux éléments.
+L’objectif est de faciliter la modélisation des réseaux techniques en prenant en compte les obstacles présents dans le modèle (murs, poutres, etc.) et en générant un trajet optimisé pour le passage du conduit.
 
 ## ⚙️ Fonctionnalités
 
-✅ Sélection de deux éléments MEP dans Revit  
-✅ Calcul de leurs centres via la Revit API  
-✅ Détection des obstacles à l’aide de `ReferenceIntersector`  
-✅ Génération de points intermédiaires intelligents pour éviter les collisions  
-✅ Création de conduits 3D (DirectShape) avec matériau et rayon personnalisables  
-✅ Sauvegarde du chemin dans un fichier JSON local pour réutilisation ultérieure  
-✅ Fenêtre de validation pour enregistrer ou annuler l’opération
+| Fonction | Description |
+|----------|-------------|
+| 🧩 Sélection | Deux éléments MEP sélectionnés dans Revit |
+| 📍 Calcul des centres | Revit API utilisée pour récupérer les coordonnées |
+| 🚧 Obstacles | Détection via `ReferenceIntersector` |
+| 🔁 Contournement | Génération automatique de points intermédiaires |
+| 📐 Conduits | Modélisation 3D avec matériau et rayon personnalisables |
+| 💾 Mémoire | Fichier JSON utilisé pour stocker les trajets |
+| ✅ Validation | Interface utilisateur pour confirmer ou annuler l’action |
+
 
 ## 🖼️ Aperçu
 
 ![Démo du script PyRevit](demo.gif)  
-📌 *Capture d’écran ou GIF montrant le tracé automatique dans Revit*
+*GIF montrant le tracé automatique dans Revit*
 
 ## 🛠️ Technologies
 
-- Python 3
+- Python 
 - PyRevit
 - Autodesk Revit API (version 2025)
 - JSON (sauvegarde mémoire)
@@ -59,9 +63,10 @@ Ce projet est open-source sous licence MIT. Vous pouvez l'utiliser, le modifier 
 ## 👤 Auteur
 
 **Samuel BROU**  
-Étudiant ingénieur à l’ESTP Paris  
+Étudiant ingénieur à l’ESTP Paris
+Parcours en Transition Numérique de la construction
 Option Jumeaux Numériques & Intelligence Artificielle  
 📧 ange.brou@estp.fr  
-🔗 [LinkedIn](https://www.linkedin.com/in/ton-lien)
+🔗 [LinkedIn](https://www.linkedin.com/in/brou-ange-samuel-8945442aa?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BjVq%2FbBG2SpG6xsyqPbvaPw%3D%3D)
 
 > *Projet développé en collaboration avec l’ESTP Paris*
