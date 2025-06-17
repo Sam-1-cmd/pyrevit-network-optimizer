@@ -64,6 +64,7 @@ Ce projet est open-source sous licence MIT. Vous pouvez l'utiliser, le modifier 
 
 **Samuel BROU**  
 Étudiant ingénieur à l’ESTP Paris
+
 Parcours en Transition Numérique de la construction
 Option Jumeaux Numériques & Intelligence Artificielle  
 📧 ange.brou@estp.fr  
