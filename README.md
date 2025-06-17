@@ -1,15 +1,16 @@
 # pyrevit-network-optimizer
 
-# 🛠️ Génération intelligente de conduits dans Revit avec PyRevit
+# Génération intelligente de conduits dans Revit avec PyRevit
 
-🎓 Projet réalisé dans le cadre de ma formation à l’ESTP Paris, option Jumeaux Numériques et Intelligence Artificielle.
+Projet réalisé à l’ESTP Paris dans le cadre de ma spécialisation en Jumeaux Numériques et Intelligence Artificielle dans le BTP.
+Ce script automatise le tracé de conduits dans Revit entre deux éléments, en contournant les obstacles et en générant un chemin optimisé via PyRevit et la Revit API.
 
-## 🎯 Objectif
+##  Objectif
 
 Outil PyRevit conçu pour automatiser le tracé de conduits dans Revit, avec détection d’obstacles et génération d’un chemin contourné entre deux éléments.
 L’objectif est de faciliter la modélisation des réseaux techniques en prenant en compte les obstacles présents dans le modèle (murs, poutres, etc.) et en générant un trajet optimisé pour le passage du conduit.
 
-## ⚙️ Fonctionnalités
+## ⚙Fonctionnalités
 
 | Fonction | Description |
 |----------|-------------|
@@ -22,12 +23,12 @@ L’objectif est de faciliter la modélisation des réseaux techniques en prenan
 | ✅ Validation | Interface utilisateur pour confirmer ou annuler l’action |
 
 
-## 🖼️ Aperçu
+##  Aperçu
 
 ![Démo du script PyRevit](demo.gif)  
 *GIF montrant le tracé automatique dans Revit*
 
-## 🛠️ Technologies
+##  Technologies
 
 - Python 
 - PyRevit
@@ -35,10 +36,10 @@ L’objectif est de faciliter la modélisation des réseaux techniques en prenan
 - JSON (sauvegarde mémoire)
 - Math, GeometryCreationUtilities, TaskDialog
 
-## 📂 Structure du projet
+## Structure du projet
 
 ```
-📁 /pyrevit-network-optimizer/
+/pyrevit-network-optimizer/
 ├── main_script.py
 ├── README.md
 ├── demo.gif
@@ -54,13 +55,13 @@ L’objectif est de faciliter la modélisation des réseaux techniques en prenan
    - Confirmer l’insertion du conduit
    - Valider l’enregistrement du trajet
 
-> 💡 Nécessite un projet Revit avec un matériau nommé "PVC"
+>  Nécessite un projet Revit avec un matériau nommé "PVC"
 
-## 🔐 Licence
+##  Licence
 
 Ce projet est open-source sous licence MIT. Vous pouvez l'utiliser, le modifier et le partager à condition de mentionner l’auteur.
 
-## 👤 Auteur
+## Auteur
 
 **Samuel BROU**  
 Étudiant ingénieur à l’ESTP Paris
